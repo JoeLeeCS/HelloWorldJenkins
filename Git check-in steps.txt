@@ -1,0 +1,6 @@
+git init
+git status
+git add
+git commit -m ""
+git remote add origin https://github.com/JoeLeeCS/Repo2.git
+git push -u origin master

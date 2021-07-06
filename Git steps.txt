@@ -1,0 +1,28 @@
+#//first time setup
+
+git init
+git status
+git add .          (Staging Area)
+git commit -m ""           (To Local)
+git remote add origin https://github.com/JoeLeeCS/Repo2.git
+git push -u origin master  (To Remote)
+
+
+#//subsequence..
+git add .
+git commit -m "descriptions.."
+git push -u origin master
+
+
+#//Creating Branches
+git branch MyNewBranch
+git checkout MyNewBranch
+
+//Checkout Master branch first, then choose which branch to merge
+
+git merge MyNewBranch  //choose the branch to merge
+git branch -d MyNewBranch  //delete from local
+git push origin --delete MyNewBranch //delete from remote
+
+//pull repo to local 
+git clone "https//xxx.git" .  //the '.' means local directory
